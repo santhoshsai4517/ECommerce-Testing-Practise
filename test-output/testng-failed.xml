@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scode.ECommerceTesting.Tests.LoginPageTest">
+      <class name="scode.ECommerceTesting.Tests.ForgotPasswordPageTest">
         <methods>
           <include name="after"/>
-          <include name="emptyEmailAndPassword"/>
+          <include name="notAUser"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- scode.ECommerceTesting.Tests.LoginPageTest -->
+      </class> <!-- scode.ECommerceTesting.Tests.ForgotPasswordPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

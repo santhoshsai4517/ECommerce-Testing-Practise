@@ -3,18 +3,12 @@ package scode.ECommerceTesting.Tests;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import scode.ECommerce.TestComponents.BaseTest;
-import scode.ECommerce.TestComponents.Retry;
-import scode.ECommerceTesting.pageobjects.CartPage;
-import scode.ECommerceTesting.pageobjects.CheckoutPage;
-import scode.ECommerceTesting.pageobjects.OrderConfirmationPage;
 import scode.ECommerceTesting.pageobjects.ProductsPage;
 
 public class LoginPageTest extends BaseTest {
@@ -53,12 +47,18 @@ public class LoginPageTest extends BaseTest {
 	}
 	
 	@Test(groups = { "ErrorHandling" })
-	public void emptyEmailAndPassword() throws InterruptedException {
+	public void emptyEmailAndPassword(){
 
 		login.loginApplication("", "");
-//		Thread.sleep(5000);
-//		System.out.println(driver.findElements(By.cssSelector("div[class='ng-star-inserted']")).size());
 		Assert.assertTrue(login.areErrorsPresent("*Email is required","*Password is required") );
+
+	}
+	
+	@Test(groups = { "ErrorHandling" })
+	public void invalidEmail() {
+
+		login.loginApplication("s", "123");
+		Assert.assertEquals(login.getEmailErrorText(),"*Enter Valid Email");
 
 	}
 	
@@ -69,7 +69,7 @@ public class LoginPageTest extends BaseTest {
 		HashMap<String, String> map = new HashMap<String, String>();
 		map.put("email", "santhoshsai4517@gmail.com");
 		map.put("password", "151Fa04124@4517");
-		map.put("prodName", "ZARA COAT 3");
+//		map.put("prodName", "ZARA COAT 3");
 
 //		List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir") + "\\src\\test\\java\\scode\\ECommerece\\Data\\PurchaseOrder.json");
 		return new Object[][] { { map } };

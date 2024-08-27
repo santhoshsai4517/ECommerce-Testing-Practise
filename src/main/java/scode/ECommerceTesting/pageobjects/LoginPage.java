@@ -1,12 +1,10 @@
 package scode.ECommerceTesting.pageobjects;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 
 import scode.ECommerece.AbstractComponents.Utility;
 
@@ -37,6 +35,12 @@ public class LoginPage extends Utility {
 
 	@FindBy(xpath = "//input[@type='password']/parent::div/div/div")
 	WebElement passwordError;
+	
+	@FindBy(css = ".forgot-password-link")
+	WebElement forgotPassword;
+	
+	@FindBy(css = ".login-title")
+	WebElement loginHeader;
 
 
 	public ProductsPage loginApplication(String email, String pass) {
@@ -68,4 +72,19 @@ public class LoginPage extends Utility {
 		
 		return emailError.getText().equals(emailErrorText) && passwordError.getText().equals(passwordErrorText);
 	}
+
+	public ForgotPasswordPage gotoForgotPassword() {
+		forgotPassword.click();
+		return new ForgotPasswordPage(driver);
+	}
+
+	public String getPasswordUpdateText() {
+		waitForWebElementToAppear(errorToast);
+		return errorToast.getText();
+	}
+	
+	public String getLoginHeaderText() {
+		return loginHeader.getText();
+	}
+
 }
