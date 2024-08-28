@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.574 s - in TestSuite
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 78.244 s <<< FAILURE! - in TestSuite
+loginValidation(scode.ECommerceTesting.Tests.LoginPageTest)  Time elapsed: 0.596 s  <<< FAILURE!
+java.lang.AssertionError: expected [Login Successfully] but found []
+	at scode.ECommerceTesting.Tests.LoginPageTest.loginValidation(LoginPageTest.java:20)
+

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.LoginPageTest" class="method navigator-link" hash-for-method="loginValidation({password=151Fa04124@4517, email=santhoshsai4517@gmail.com})">loginValidation({password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +115,21 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="changePassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})">changePassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="emptyConfirmPassword">emptyConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="emptyEmail">emptyEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.LoginPageTest" class="method navigator-link" hash-for-method="emptyEmail">emptyEmail</a> <!-- method navigator-link -->
@@ -113,7 +142,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="emptyFileds">emptyFileds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.LoginPageTest" class="method navigator-link" hash-for-method="emptyPassword">emptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="emptyPassword">emptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="gotoLogin">gotoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="gotoRegister">gotoRegister</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,7 +172,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.LoginPageTest" class="method navigator-link" hash-for-method="loginValidation({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com})">loginValidation({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.LoginPageTest" class="method navigator-link" hash-for-method="invalidEmail">invalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="invalidEmail">invalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="loginWithOldPassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})">loginWithOldPassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="notAUser">notAUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="passwordMismatch">passwordMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" class="method navigator-link" hash-for-method="visitPage">visitPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -138,6 +212,121 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scode.ECommerceTesting.Tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation({password=151Fa04124@4517, email=santhoshsai4517@gmail.com})">
+                  </a> <!-- loginValidation({password=151Fa04124@4517, email=santhoshsai4517@gmail.com}) -->
+                  <span class="method-name">loginValidation</span>
+                  <span class="parameters">({password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Login Successfully] but found []
+	at scode.ECommerceTesting.Tests.LoginPageTest.loginValidation(LoginPageTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scode.ECommerceTesting.Tests.ForgotPasswordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})">
+                  </a> <!-- changePassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com}) -->
+                  <span class="method-name">changePassword</span>
+                  <span class="parameters">({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyConfirmPassword">
+                  </a> <!-- emptyConfirmPassword -->
+                  <span class="method-name">emptyConfirmPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyEmail">
+                  </a> <!-- emptyEmail -->
+                  <span class="method-name">emptyEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFileds">
+                  </a> <!-- emptyFileds -->
+                  <span class="method-name">emptyFileds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyPassword">
+                  </a> <!-- emptyPassword -->
+                  <span class="method-name">emptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gotoLogin">
+                  </a> <!-- gotoLogin -->
+                  <span class="method-name">gotoLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gotoRegister">
+                  </a> <!-- gotoRegister -->
+                  <span class="method-name">gotoRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmail">
+                  </a> <!-- invalidEmail -->
+                  <span class="method-name">invalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithOldPassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})">
+                  </a> <!-- loginWithOldPassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com}) -->
+                  <span class="method-name">loginWithOldPassword</span>
+                  <span class="parameters">({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notAUser">
+                  </a> <!-- notAUser -->
+                  <span class="method-name">notAUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordMismatch">
+                  </a> <!-- passwordMismatch -->
+                  <span class="method-name">passwordMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visitPage">
+                  </a> <!-- visitPage -->
+                  <span class="method-name">visitPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -174,10 +363,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginValidation({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com})">
-                  </a> <!-- loginValidation({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com}) -->
-                  <span class="method-name">loginValidation</span>
-                  <span class="parameters">({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</span>
+                  <a name="invalidEmail">
+                  </a> <!-- invalidEmail -->
+                  <span class="method-name">invalidEmail</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -223,6 +411,10 @@
               <span class="test-group-name">ErrorHandling</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">emptyConfirmPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">emptyEmail</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -231,11 +423,31 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">emptyFileds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">emptyPassword</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">incorrecCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithOldPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notAUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordMismatch</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -255,32 +467,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(18);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginValidation')
-data.setCell(0, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
-data.setCell(0, 3, 423);
+data.setCell(0, 1, 'changePassword')
+data.setCell(0, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(0, 3, 6623);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'incorrecCredentials')
-data.setCell(1, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
-data.setCell(1, 3, 306);
+data.setCell(1, 1, 'emptyPassword')
+data.setCell(1, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(1, 3, 1791);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'emptyPassword')
-data.setCell(2, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
-data.setCell(2, 3, 159);
+data.setCell(2, 1, 'emptyEmail')
+data.setCell(2, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(2, 3, 1687);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'emptyEmailAndPassword')
-data.setCell(3, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
-data.setCell(3, 3, 149);
+data.setCell(3, 1, 'gotoLogin')
+data.setCell(3, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(3, 3, 1519);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'emptyEmail')
-data.setCell(4, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
-data.setCell(4, 3, 139);
+data.setCell(4, 1, 'loginWithOldPassword')
+data.setCell(4, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(4, 3, 792);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'notAUser')
+data.setCell(5, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(5, 3, 764);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'passwordMismatch')
+data.setCell(6, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(6, 3, 682);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalidEmail')
+data.setCell(7, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(7, 3, 667);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginValidation')
+data.setCell(8, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(8, 3, 591);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'emptyFileds')
+data.setCell(9, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(9, 3, 502);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'incorrecCredentials')
+data.setCell(10, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(10, 3, 479);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'emptyConfirmPassword')
+data.setCell(11, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(11, 3, 451);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'emptyPassword')
+data.setCell(12, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(12, 3, 364);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'emptyEmailAndPassword')
+data.setCell(13, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(13, 3, 343);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'emptyEmail')
+data.setCell(14, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(14, 3, 304);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'gotoRegister')
+data.setCell(15, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(15, 3, 288);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'invalidEmail')
+data.setCell(16, 2, 'scode.ECommerceTesting.Tests.LoginPageTest')
+data.setCell(16, 3, 283);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'visitPage')
+data.setCell(17, 2, 'scode.ECommerceTesting.Tests.ForgotPasswordPageTest')
+data.setCell(17, 3, 189);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -306,66 +570,227 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scode.ECommerceTesting.Tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scode.ECommerceTesting.Tests.ForgotPasswordPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">emptyEmail</span>
-                <span class="method-start">3356 ms</span>
+                <span class="method-name">changePassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</span>
+                <span class="method-start">3987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after</span>
-                <span class="method-start">3496 ms</span>
+                <span class="method-start">10613 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">3656 ms</span>
+                <span class="method-start">10687 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">emptyEmailAndPassword</span>
-                <span class="method-start">6151 ms</span>
+                <span class="method-name">emptyConfirmPassword</span>
+                <span class="method-start">13931 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after</span>
-                <span class="method-start">6300 ms</span>
+                <span class="method-start">14383 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">6370 ms</span>
+                <span class="method-start">14486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyEmail</span>
+                <span class="method-start">16363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">18051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">18098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyFileds</span>
+                <span class="method-start">21329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">21832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">21903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">emptyPassword</span>
-                <span class="method-start">9097 ms</span>
+                <span class="method-start">23786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after</span>
-                <span class="method-start">9257 ms</span>
+                <span class="method-start">25578 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">9330 ms</span>
+                <span class="method-start">25647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gotoLogin</span>
+                <span class="method-start">27547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">29066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">29145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gotoRegister</span>
+                <span class="method-start">32250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">32539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">32693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidEmail</span>
+                <span class="method-start">36876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">37544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">37687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithOldPassword({oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com})</span>
+                <span class="method-start">41429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">42222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">42382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notAUser</span>
+                <span class="method-start">46059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">46825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">46937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordMismatch</span>
+                <span class="method-start">50346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">51028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">51126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">visitPage</span>
+                <span class="method-start">54663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">54853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scode.ECommerceTesting.Tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">54980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyEmail</span>
+                <span class="method-start">58167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">58472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">58595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyEmailAndPassword</span>
+                <span class="method-start">61622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">61965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">62044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyPassword</span>
+                <span class="method-start">65086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">65451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">65521 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">incorrecCredentials</span>
-                <span class="method-start">11807 ms</span>
+                <span class="method-start">68577 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after</span>
-                <span class="method-start">12116 ms</span>
+                <span class="method-start">69058 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">12153 ms</span>
+                <span class="method-start">69151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginValidation({prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</span>
-                <span class="method-start">14742 ms</span>
+                <span class="method-name">invalidEmail</span>
+                <span class="method-start">72272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">after</span>
-                <span class="method-start">15165 ms</span>
+                <span class="method-start">72555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">72620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginValidation({password=151Fa04124@4517, email=santhoshsai4517@gmail.com})</span>
+                <span class="method-start">76928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">77526 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

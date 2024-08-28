@@ -68,7 +68,7 @@ public class BaseTest {
 
 	@AfterMethod(alwaysRun = true)
 	public void after() {
-		driver.close();
+		driver.quit();
 	}
 
 	public List<HashMap<String, String>> getJsonDataToMap(String filePath) throws IOException {

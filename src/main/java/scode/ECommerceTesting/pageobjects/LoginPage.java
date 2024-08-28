@@ -41,6 +41,12 @@ public class LoginPage extends Utility {
 	
 	@FindBy(css = ".login-title")
 	WebElement loginHeader;
+	
+	@FindBy(css = ".text-reset")
+	WebElement registerLink;
+	
+	@FindBy(css = "a[href*='register']")
+	WebElement registerButton;
 
 
 	public ProductsPage loginApplication(String email, String pass) {
@@ -85,6 +91,14 @@ public class LoginPage extends Utility {
 	
 	public String getLoginHeaderText() {
 		return loginHeader.getText();
+	}
+	
+	public RegisterPage gotoRegisterPage(String type) {
+		if(type.equalsIgnoreCase("link"))
+			registerLink.click();
+		if(type.equalsIgnoreCase("button"))
+			registerButton.click();
+		return new RegisterPage(driver);
 	}
 
 }

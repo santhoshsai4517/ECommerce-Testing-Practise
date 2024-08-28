@@ -1,86 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T09:40:07 IST" name="Surefire suite" finished-at="2024-08-27T09:40:23 IST" duration-ms="15231">
+  <suite started-at="2024-08-27T13:17:49 IST" name="Surefire suite" finished-at="2024-08-27T13:19:06 IST" duration-ms="77670">
     <groups>
       <group name="ErrorHandling">
-        <method signature="LoginPageTest.emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" name="emptyEmail" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
-        <method signature="LoginPageTest.emptyEmailAndPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" name="emptyEmailAndPassword" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
-        <method signature="LoginPageTest.emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" name="emptyPassword" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
-        <method signature="LoginPageTest.incorrecCredentials()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" name="incorrecCredentials" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
+        <method signature="ForgotPasswordPageTest.emptyConfirmPassword()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="emptyConfirmPassword" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="emptyEmail" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.emptyFileds()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="emptyFileds" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="emptyPassword" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.invalidEmail()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="invalidEmail" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.loginWithOldPassword(java.util.HashMap)[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="loginWithOldPassword" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.notAUser()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="notAUser" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.passwordMismatch()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" name="passwordMismatch" class="scode.ECommerceTesting.Tests.ForgotPasswordPageTest"/>
+        <method signature="LoginPageTest.emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" name="emptyEmail" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
+        <method signature="LoginPageTest.emptyEmailAndPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" name="emptyEmailAndPassword" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
+        <method signature="LoginPageTest.emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" name="emptyPassword" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
+        <method signature="LoginPageTest.incorrecCredentials()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" name="incorrecCredentials" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" name="invalidEmail" class="scode.ECommerceTesting.Tests.LoginPageTest"/>
       </group> <!-- ErrorHandling -->
     </groups>
-    <test started-at="2024-08-27T09:40:07 IST" name="Surefire test" finished-at="2024-08-27T09:40:23 IST" duration-ms="15231">
+    <test started-at="2024-08-27T13:17:49 IST" name="Surefire test" finished-at="2024-08-27T13:19:06 IST" duration-ms="77670">
       <class name="scode.ECommerceTesting.Tests.LoginPageTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:08 IST" name="launchApplication" finished-at="2024-08-27T09:40:11 IST" duration-ms="3355" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:44 IST" name="launchApplication" finished-at="2024-08-27T13:18:47 IST" duration-ms="3187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:11 IST" name="emptyEmail" finished-at="2024-08-27T09:40:11 IST" duration-ms="139" status="PASS">
+        <test-method signature="emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:47 IST" name="emptyEmail" finished-at="2024-08-27T13:18:47 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmail -->
-        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:11 IST" name="after" finished-at="2024-08-27T09:40:11 IST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:47 IST" name="after" finished-at="2024-08-27T13:18:47 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:11 IST" name="launchApplication" finished-at="2024-08-27T09:40:14 IST" duration-ms="2495" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:47 IST" name="launchApplication" finished-at="2024-08-27T13:18:50 IST" duration-ms="3027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="emptyEmailAndPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:14 IST" name="emptyEmailAndPassword" finished-at="2024-08-27T09:40:14 IST" duration-ms="149" status="PASS">
+        <test-method signature="emptyEmailAndPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:50 IST" name="emptyEmailAndPassword" finished-at="2024-08-27T13:18:51 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmailAndPassword -->
-        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:14 IST" name="after" finished-at="2024-08-27T09:40:14 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:51 IST" name="after" finished-at="2024-08-27T13:18:51 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:14 IST" name="launchApplication" finished-at="2024-08-27T09:40:17 IST" duration-ms="2727" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:51 IST" name="launchApplication" finished-at="2024-08-27T13:18:54 IST" duration-ms="3042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:17 IST" name="emptyPassword" finished-at="2024-08-27T09:40:17 IST" duration-ms="159" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:54 IST" name="emptyPassword" finished-at="2024-08-27T13:18:54 IST" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:17 IST" name="after" finished-at="2024-08-27T09:40:17 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:54 IST" name="after" finished-at="2024-08-27T13:18:54 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:17 IST" name="launchApplication" finished-at="2024-08-27T09:40:19 IST" duration-ms="2477" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:54 IST" name="launchApplication" finished-at="2024-08-27T13:18:57 IST" duration-ms="3055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="incorrecCredentials()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:19 IST" name="incorrecCredentials" finished-at="2024-08-27T09:40:20 IST" duration-ms="306" status="PASS">
+        <test-method signature="incorrecCredentials()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:57 IST" name="incorrecCredentials" finished-at="2024-08-27T13:18:58 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrecCredentials -->
-        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:20 IST" name="after" finished-at="2024-08-27T09:40:20 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:58 IST" name="after" finished-at="2024-08-27T13:18:58 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:20 IST" name="launchApplication" finished-at="2024-08-27T09:40:22 IST" duration-ms="2589" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:18:58 IST" name="launchApplication" finished-at="2024-08-27T13:19:01 IST" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:22 IST" name="loginValidation" data-provider="getData" finished-at="2024-08-27T09:40:23 IST" duration-ms="423" status="PASS">
+        <test-method signature="invalidEmail()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:19:01 IST" name="invalidEmail" finished-at="2024-08-27T13:19:01 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:19:01 IST" name="after" finished-at="2024-08-27T13:19:01 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:19:01 IST" name="launchApplication" finished-at="2024-08-27T13:19:06 IST" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:19:06 IST" name="loginValidation" data-provider="getData" finished-at="2024-08-27T13:19:06 IST" duration-ms="591" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{prodName=ZARA COAT 3, password=151Fa04124@4517, email=santhoshsai4517@gmail.com}]]>
+                <![CDATA[{password=151Fa04124@4517, email=santhoshsai4517@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at scode.ECommerceTesting.Tests.LoginPageTest.loginValidation(LoginPageTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@61dd025]" started-at="2024-08-27T13:19:06 IST" name="after" finished-at="2024-08-27T13:19:06 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- scode.ECommerceTesting.Tests.LoginPageTest -->
+      <class name="scode.ECommerceTesting.Tests.ForgotPasswordPageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:17:49 IST" name="launchApplication" finished-at="2024-08-27T13:17:53 IST" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="changePassword(java.util.HashMap)[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:17:53 IST" name="changePassword" data-provider="getData" finished-at="2024-08-27T13:17:59 IST" duration-ms="6623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.LoginPageTest@3901d134]" started-at="2024-08-27T09:40:23 IST" name="after" finished-at="2024-08-27T09:40:23 IST" duration-ms="36" status="PASS">
+        </test-method> <!-- changePassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:17:59 IST" name="after" finished-at="2024-08-27T13:18:00 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- scode.ECommerceTesting.Tests.LoginPageTest -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:00 IST" name="launchApplication" finished-at="2024-08-27T13:18:03 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emptyConfirmPassword()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:03 IST" name="emptyConfirmPassword" finished-at="2024-08-27T13:18:03 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyConfirmPassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:03 IST" name="after" finished-at="2024-08-27T13:18:03 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:03 IST" name="launchApplication" finished-at="2024-08-27T13:18:05 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emptyEmail()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:05 IST" name="emptyEmail" finished-at="2024-08-27T13:18:07 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmail -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:07 IST" name="after" finished-at="2024-08-27T13:18:07 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:07 IST" name="launchApplication" finished-at="2024-08-27T13:18:10 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emptyFileds()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:10 IST" name="emptyFileds" finished-at="2024-08-27T13:18:11 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFileds -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:11 IST" name="after" finished-at="2024-08-27T13:18:11 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:11 IST" name="launchApplication" finished-at="2024-08-27T13:18:13 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emptyPassword()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:13 IST" name="emptyPassword" finished-at="2024-08-27T13:18:14 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:14 IST" name="after" finished-at="2024-08-27T13:18:15 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:15 IST" name="launchApplication" finished-at="2024-08-27T13:18:16 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="gotoLogin()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:16 IST" name="gotoLogin" finished-at="2024-08-27T13:18:18 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoLogin -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:18 IST" name="after" finished-at="2024-08-27T13:18:18 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:18 IST" name="launchApplication" finished-at="2024-08-27T13:18:21 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="gotoRegister()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:21 IST" name="gotoRegister" finished-at="2024-08-27T13:18:21 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoRegister -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:21 IST" name="after" finished-at="2024-08-27T13:18:22 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:22 IST" name="launchApplication" finished-at="2024-08-27T13:18:26 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidEmail()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:26 IST" name="invalidEmail" finished-at="2024-08-27T13:18:26 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:26 IST" name="after" finished-at="2024-08-27T13:18:27 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:27 IST" name="launchApplication" finished-at="2024-08-27T13:18:30 IST" duration-ms="3742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWithOldPassword(java.util.HashMap)[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:30 IST" name="loginWithOldPassword" data-provider="getData" finished-at="2024-08-27T13:18:31 IST" duration-ms="792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{oldpassword=151Fa04124@4517, newpassword=123, email=santhoshsai@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOldPassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:31 IST" name="after" finished-at="2024-08-27T13:18:31 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:31 IST" name="launchApplication" finished-at="2024-08-27T13:18:35 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="notAUser()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:35 IST" name="notAUser" finished-at="2024-08-27T13:18:36 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notAUser -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:36 IST" name="after" finished-at="2024-08-27T13:18:36 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:36 IST" name="launchApplication" finished-at="2024-08-27T13:18:39 IST" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="passwordMismatch()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:39 IST" name="passwordMismatch" finished-at="2024-08-27T13:18:40 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMismatch -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:40 IST" name="after" finished-at="2024-08-27T13:18:40 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:40 IST" name="launchApplication" finished-at="2024-08-27T13:18:44 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="visitPage()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:44 IST" name="visitPage" finished-at="2024-08-27T13:18:44 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitPage -->
+        <test-method is-config="true" signature="after()[pri:0, instance:scode.ECommerceTesting.Tests.ForgotPasswordPageTest@147ed70f]" started-at="2024-08-27T13:18:44 IST" name="after" finished-at="2024-08-27T13:18:44 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- scode.ECommerceTesting.Tests.ForgotPasswordPageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
