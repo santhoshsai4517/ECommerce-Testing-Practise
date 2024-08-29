@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite" parallel="tests" thread-count="5">
+<suite name="Suite" parallel="classes" thread-count="5">
 	<test thread-count="5" name="Login Page">
 		<classes>
 			<class name="scode.ECommerceTesting.Tests.LoginPageTest" />
@@ -11,6 +11,11 @@
 	<test thread-count="5" name="Forgot Password Page">
 		<classes>
 			<class name="scode.ECommerceTesting.Tests.ForgotPasswordPageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Register Page">
+		<classes>
+			<class name="scode.ECommerceTesting.Tests.RegisterPageTest" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->

@@ -30,7 +30,7 @@ public class RegisterPageTest extends BaseTest {
 				data.get("occupation"), data.get("password"), data.get("confirmpassword"), data.get("gender"), isMajor);
 		Assert.assertEquals(register.getRegistrationText(), "Registered Successfully");
 		Assert.assertEquals(register.getAccountCreatedText(), "Account Created Successfully");
-		LoginPage login = register.gotoLoginPage();
+		LoginPage login = register.gotoLoginPageAfter();
 		ProductsPage prod = login.loginApplication(data.get("email"), data.get("password"));
 		Assert.assertEquals(prod.getLoginToastText(), "Login Successfully");
 		Assert.assertTrue(prod.isSignoutVisible());
@@ -226,8 +226,8 @@ public class RegisterPageTest extends BaseTest {
 	public Object[][] getData() throws IOException {
 
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("email", "voshrtybvhruy@gmail.com");
-		map.put("errorhandlingemail", "vosegtyhrgeruy@gmail.com");
+		map.put("email", "voshrrtybe1svhruy@gmail.com");
+		map.put("errorhandlingemail", "vosegstyhrgeruy@gmail.com");
 		map.put("passwordwithNoDigits", "aswS@qwe");
 		map.put("passwordwithNoCaps", "12345678s@");
 		map.put("passwordwithNoSmall", "12345678S@");

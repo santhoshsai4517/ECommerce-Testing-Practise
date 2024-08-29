@@ -64,7 +64,7 @@ public class RegisterPage extends Utility {
 
 	@FindBy(xpath = "//input[@type='text']/parent::div/div/div[1]")
 	WebElement phnoError;
-	
+
 	@FindBy(xpath = "//input[@type='text']/parent::div/div/div[2]")
 	WebElement phnoError1;
 
@@ -79,7 +79,7 @@ public class RegisterPage extends Utility {
 
 	@FindBy(css = "div[aria-label='Registered Successfully']")
 	WebElement successToast;
-	
+
 	@FindBy(css = "div[role='alert']")
 	WebElement errorToast;
 
@@ -88,6 +88,9 @@ public class RegisterPage extends Utility {
 
 	@FindBy(css = ".text-reset")
 	WebElement loginButton;
+
+	@FindBy(tagName = "button")
+	WebElement loginAfterRegisterButton;
 
 	public String getRegisterHeaderText() {
 		return registerHeader.getText();
@@ -124,6 +127,12 @@ public class RegisterPage extends Utility {
 		return registerSuccessHeaderElement.getText();
 	}
 
+	public LoginPage gotoLoginPageAfter() {
+		waitForElementToDisappear(successToast);
+		loginAfterRegisterButton.click();
+		return new LoginPage(driver);
+	}
+
 	public LoginPage gotoLoginPage() {
 		loginButton.click();
 		waitForElementToDisappear(successToast);
@@ -141,7 +150,7 @@ public class RegisterPage extends Utility {
 	public String getPhNoErrorText() {
 		return phnoError.getText();
 	}
-	
+
 	public String getSecondPhNoErrorText() {
 		return phnoError1.getText();
 	}
@@ -157,7 +166,7 @@ public class RegisterPage extends Utility {
 	public String getCheckBoxErrorText() {
 		return checkboxError.getText();
 	}
-	
+
 	public String getErrorToastText() {
 		return errorToast.getText();
 	}

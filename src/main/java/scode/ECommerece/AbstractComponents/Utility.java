@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import scode.ECommerceTesting.pageobjects.CartPage;
+import scode.ECommerceTesting.pageobjects.LoginPage;
 import scode.ECommerceTesting.pageobjects.OrdersPage;
 
 public class Utility {
@@ -25,6 +26,9 @@ public class Utility {
 	
 	@FindBy(css = "[routerlink*='myorders']")
 	WebElement orders;
+	
+	@FindBy(css = ".fa-sign-out")
+	WebElement signoutBtn;
 
 	public void waitForElementToAppear(By locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -48,6 +52,11 @@ public class Utility {
 	public OrdersPage gotoOrdesr() {
 		orders.click();
 		return new OrdersPage(driver);
+	}
+	
+	public LoginPage signout() {
+		signoutBtn.click();
+		return new LoginPage(driver);
 	}
 	
 }

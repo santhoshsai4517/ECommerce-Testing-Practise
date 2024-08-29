@@ -47,6 +47,9 @@ public class LoginPage extends Utility {
 	
 	@FindBy(css = "a[href*='register']")
 	WebElement registerButton;
+	
+	@FindBy(css = "div[role='alert']")
+	WebElement logoutToast;
 
 
 	public ProductsPage loginApplication(String email, String pass) {
@@ -99,6 +102,11 @@ public class LoginPage extends Utility {
 		if(type.equalsIgnoreCase("button"))
 			registerButton.click();
 		return new RegisterPage(driver);
+	}
+	
+	public String getLogoutText() {
+		waitForWebElementToAppear(logoutToast);
+		return logoutToast.getText();
 	}
 
 }
